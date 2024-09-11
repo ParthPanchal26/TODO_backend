@@ -1,6 +1,15 @@
 # TODO_backend - OPEN SOURCE PROJECT
 
-## I have made this repo to deploy a TODO backend service on "render".
+## About : 
+
+### TODO_backend is an OPEN SOURCE backend service for TODO web Applications.
+### The Project have build in ExpressJs.
+###     ExpressJS version : ^4.19.2
+### The project is hosted on "Render".
+### The project supports users and tasks APIs.
+### The users APIS are: register, login, logout and getProfile
+### The tasks APIs are : newTask, getMyTask, updateTask and deleteTask
+
 
 ## -> To view backend APIs : 
 
