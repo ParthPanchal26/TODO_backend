@@ -38,6 +38,7 @@ app.use("/api/v1/tasks", taskRouter);
 // Empty route GET API
 app.get('/', (req, res) => {
     res.send("Server is running!");
+    console.log(`Server listening on https://todo-backend-kmx3.onrender.com/ in ${process.env.NODE_ENV} mode!`);
 });
 
 app.use(errorMiddleware)
